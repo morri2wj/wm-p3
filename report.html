@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Report:</h1>
+    <p><a href="">Link:</a></p>
+    <h2>Explanation</h2>
+    <p>This is the NameLegoSet website.</p>
+    <p>It allows you to search your name and get a personal Lego set.</p>
+    <p>Basically, what this thing does is it goes to the Agify API and,
+        instead of getting the expected age, gets the "count" field (number of entries in their db, I guess?)
+    </p>
+    <p>Then it takes that count, manipulates it, and tries to get a Lego set using that count as the ID field.
+    </p>
+    <p>This Lego set is the personalized set for the user.
+    </p>
+    <h2>Requirements</h2>
+    <p>Publicly deployed: see link</p>
+    <p>Is responsive: Uses media queries, see main.css</p>
+    <p>Uses two different APIs: Uses the Agify API to get the personal id and the Rebrickable API to get the Lego set
+        data.</p>
+    <p>Displays results: Press the "show details" button after searching to see full results.</p>
+    <p>Results are filterable: Well, there's only one result, so there can't be much filtration. However, the results
+        are still generally interactable, as you can show and hide details about them.
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NameSet</title>
+  <!-- Used a red flag because the brick emoji wouldn't show up -->
+  <link rel="icon" href="https://fav.farm/🚩">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="container">
+    <header class="indented content heading">
+      <h1>NameLegoSet</h1>
+      <p>Get your Lego set today!</p>
+    </header>
+    <img class="indented content" src="img/banner.jpg" alt="The Lego logo" id="logo">
+    <div class="search container">
+      <p class="indented content caption">Enter name for your personal Lego set!</p>
+      <form class="indented search-container" id="lego-search">
+        <div id="search-items">
+          <input placeholder="Name" aria-label="Search" name="query">
+          <button type="submit" id="searchbtn">Search</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="details" class="indented content">
+  </div>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
